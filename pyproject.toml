@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "site-update-notification"
+description = "Check whether the content of a site gets modified."
+authors = [
+    { name = "Mihai-Cristian Popa", email = "mihaipopa00@gmail.com" }
+]
+dependencies = [
+    "beautifulsoup4",
+    "requests",
+    "pushbullet.py",
+    "python-dotenv"
+]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "node-and-date"
