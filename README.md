@@ -38,6 +38,7 @@ Check whether the content of a site gets modified.
     - From the website, go to `Settings -> Account -> Create Access Token`. Copy this token to use in your Python script.
 
 6. **Setup the [.env](http://_vscodecontentref_/0) file**:
+    - Rename the [template.env](http://_vscodecontentref_/1) file to [.env](http://_vscodecontentref_/2).
     - Add the Pushbullet API key in the format `key=value` pair as shown below, replacing the placeholder key with your actual Pushbullet API key:
         ```env
         PUSHBULLET_API_KEY="your_pushbullet_access_token"
