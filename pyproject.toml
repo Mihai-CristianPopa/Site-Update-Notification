@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "site-update-notification"
-version = "0.0.0"  # Placeholder version, will be managed by setuptools_scm
+version = "v0.1.0"  # Placeholder version, will be managed by setuptools_scm
 description = "Check whether the content of a site gets modified."
 authors = [
     { name = "Mihai-Cristian Popa", email = "mihaipopa00@gmail.com" }
